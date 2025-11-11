@@ -136,7 +136,7 @@
 @media (max-width: 768px) {
       .spotlight-content {
         display: grid;
-        grid-template-columns: 600px;
+        grid-template-columns: 1fr;
         max-width: 1344px;
         margin: auto;
         column-gap: 10px;

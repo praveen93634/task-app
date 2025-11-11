@@ -77,6 +77,13 @@
         grid-template-columns:1fr;
         padding: 40px 50px;
         row-gap: 10px;
+        line-height: 1.0;
+    }
+    .footer-container{
+        width: 100%;
+    }
+    .footer-nav{
+        flex-direction: column;
     }
 }
 
