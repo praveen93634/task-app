@@ -6,10 +6,14 @@
 
 .nav-list-content li {
     color: #E85102;
+    
 }
 
 .nav-list-content li:hover {
     color: white;
+    text-decoration: underline #E85102;
+     text-underline-offset: 6px;
+     cursor: pointer;
 }
 
 .nav-bar {
