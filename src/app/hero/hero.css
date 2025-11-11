@@ -91,4 +91,14 @@
     }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+     .hero-title{
+        line-height: 1;
+
+    }
+    .hero-content{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
