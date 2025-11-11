@@ -117,3 +117,36 @@
     text-transform: uppercase;
     color: #e0e0e0;
 }
+
+@media (max-width: 1024px) {
+    .spotlight-content {
+        display: grid;
+        grid-template-columns: 600px;
+        max-width: 1344px;
+        margin: auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .spotlight-card-2 {
+        display: none ;
+    }
+}
+
+@media (max-width: 768px) {
+      .spotlight-content {
+        display: grid;
+        grid-template-columns: 600px;
+        max-width: 1344px;
+        margin: auto;
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    .spotlight-card-2 {
+        display: none ;
+    }
+    .transform-container{
+        display: none;
+    }
+}

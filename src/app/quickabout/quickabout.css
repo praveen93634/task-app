@@ -15,22 +15,53 @@
     margin: 0;
     line-height: 38px;
     color: #989795;
-    padding:50px;
+    padding: 50px;
     text-align: center;
     font-size: 30px;
-     font-family: 'Clash Display';
-     font-weight: 600;
+    font-family: 'Clash Display';
+    font-weight: 600;
 }
-.about-content{
-     max-width: 1300px
+
+.about-content {
+    max-width: 1300px
 }
-.cornor-bracket-top-left{
+
+.cornor-bracket-top-left {
     position: absolute;
     top: 100px;
     left: 100px;
 }
-.cornor-bracket-bottom-right{
+
+.cornor-bracket-bottom-right {
     position: absolute;
-   bottom: 100px;
+    bottom: 100px;
     right: 100px;
+}
+
+@media (max-width: 1024px) {
+    .cornor-bracket-top-left {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+
+    .cornor-bracket-bottom-right {
+        position: absolute;
+        bottom: 50px;
+        right:50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cornor-bracket-top-left {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+
+    .cornor-bracket-bottom-right {
+        position: absolute;
+        bottom: 50px;
+        right:50px;
+    }
 }

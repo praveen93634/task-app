@@ -94,7 +94,7 @@
 @media (max-width: 768px) {
     .achievements-content {
         flex-direction: column;
-        gap: 40px;
+        gap: 50px;
     }
     
     .achievements-content > div img {
@@ -116,6 +116,7 @@
     
     .content-title {
         justify-content: center;
+        
     }
     
     .content-description p {

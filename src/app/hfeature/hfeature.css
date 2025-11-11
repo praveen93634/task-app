@@ -1,21 +1,56 @@
-.features-title h1{
+.features-title h1 {
     font-size: 60px;
     font-weight: 100;
 }
-.features-title p{
+
+.features-title p {
     font-size: 20px;
     font-weight: 500;
 }
-.Autonomous{
+
+.Autonomous {
     font-weight: 500;
 }
-.features-title{
+
+.features-title {
     padding: 10px;
     margin: 50px 20px;
     max-width: 723px;
 }
-.feature-list-container{
+
+.feature-list-container {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+@media (max-width: 1024px) {
+    .feature-list-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+     .feature-list-container::-webkit-scrollbar {
+        display: none;
+    }
+
+    app-cards {
+        flex: 0 0 80%;
+        scroll-snap-align: center;
+    }
+
+    .features-title {
+        line-height: 1.1;
+        text-align: left;
+        padding: 0 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .feature-list-container {
+        display: grid;
+        grid-column: 1fr 1fr;
+    }
+
+   
 }
