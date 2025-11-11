@@ -74,17 +74,27 @@
 @media (max-width: 768px) {
     .footer-content {
         display: grid;
-        grid-template-columns:1fr;
+        grid-template-columns: 1fr;
         padding: 40px 50px;
         row-gap: 10px;
         line-height: 1.0;
     }
-    .footer-container{
+
+    .footer-container {
         width: 100%;
     }
-    .footer-nav{
+
+    .footer-nav {
         flex-direction: column;
     }
+
+    .socials {
+        display: none;
+    }
+    .line{
+        display: none;
+    }
 }
+
 
 @media (max-width: 1024px) {}

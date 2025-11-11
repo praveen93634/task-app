@@ -129,24 +129,34 @@
     }
 
     .spotlight-card-2 {
-        display: none ;
+        display: none;
     }
 }
 
 @media (max-width: 768px) {
-      .spotlight-content {
+    .spotlight-content {
         display: grid;
         grid-template-columns: 1fr;
         max-width: 1344px;
         margin: auto;
-        column-gap: 10px;
-        row-gap: 10px;
     }
 
     .spotlight-card-2 {
-        display: none ;
-    }
-    .transform-container{
         display: none;
+    }
+
+    .transform-container {
+        display: none;
+    }
+
+    .spotlight-title {
+        line-height: 1.6;
+        padding: 10px 0px;
+        word-wrap: break-word;
+    }
+
+    .spotlight-title h3 {
+        font-size: 20px;
+        line-height: 1.0;
     }
 }
