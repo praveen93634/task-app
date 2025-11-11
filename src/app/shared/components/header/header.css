@@ -1,0 +1,28 @@
+.nav-list-content{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.nav-list-content li{
+    color: #E85102;
+}
+.nav-list-content li:hover{
+    color: white;
+}
+.nav-bar{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-button{
+    border: solid 0.5px #989795;
+    padding: 7px 30px;
+    background-color: transparent;
+    border-radius: 30px;
+    color: white;
+}
+.nav-list-2{
+    margin: 10px;
+    padding: 5px;
+}

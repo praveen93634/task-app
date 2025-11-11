@@ -1,0 +1,15 @@
+<section class="container">
+    <div class="features-title">
+        <h1>The Future, Powered by</h1>
+        <h1 style="color:#E85102;" class="Autonomous">Autonomous AI</h1>
+        <p class="future-description">
+            Integrating Intelligence Seamlessly Across Software, Data, And Operations
+            To Shape The Future Of How Businesses Evolve.
+        </p>
+    </div>
+    <div class="feature-list-container">
+        @for (item of featureList; track $index) {
+        <app-cards [title]="item.title" [icon]="item.icon" [description]="item.description"></app-cards>
+    }
+    </div>
+</section>

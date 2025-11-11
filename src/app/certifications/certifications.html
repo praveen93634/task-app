@@ -1,0 +1,27 @@
+<div class="certificate-container">
+    <div class="certification-header">
+        <div class="Certifications-para">
+            <p>Autonomous AI operates with globally recognized and UAE-approved standards to ensure trust,
+                compliance, and security across all projects</p>
+        </div>
+        <div class="certificate-title">
+            <h2>Our <span style="color:#E85102;">Certifications</span> & <span style="color:#E85102;">Standards</span>
+            </h2>
+        </div>
+    </div>
+
+    <div class="certification-content">
+        @for (item of certificationList; track $index) {
+        <div class="certification-card">
+            <div class="certificate-image">
+                <img [src]="item.image">
+            </div>
+            <div class="certification-details">
+                <h4>{{item.name}}</h4>
+                <p>{{item.description}}</p>
+            </div>
+        </div>
+        }
+    </div>
+
+</div>

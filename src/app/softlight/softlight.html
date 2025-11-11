@@ -1,0 +1,51 @@
+<div class="spotlight-container">
+    <div class="spotlight-heading">
+        <h1>spotlight <span style="color:#E85102;">on</span> out work</h1>
+    </div>
+    <div class="spotlight-content">
+        @for (item of spotlightList; track $index) {
+        @if (item.image.length==0) {
+        <div class="spotlight-card">
+            <div class="spotlight-title">
+                <h2 style="color:#E85102;">{{item.title}}</h2>
+                <h3>{{item.subtitle}}</h3>
+            </div>
+            <div>
+                <p>
+                    {{item.description}}
+                </p>
+            </div>
+        </div>
+        }
+        @if (item.image.length>1) {
+        <div class="spotlight-card-2">
+            <div class="image-card">
+                <img [src]="item.image" style="opacity: 1;">
+            </div>
+        </div>
+        }
+        }
+    </div>
+    <div class="discover-button">
+        <h1><span style="color:#E85102;">discover</span> more <span style="color:#E85102;">+</span></h1>
+    </div>
+
+    <div class="transform-container">
+        <div class="image">
+            <img src="assets/images/Mask group (4).svg">
+        </div>
+        <div class="transform-content">
+            <h1>Ready to Transform 
+                <br>with <span style="color:#E85102;">Autonomous Intelligence?</span></h1>
+        </div>
+        <div class="hero-button">
+            <button class="getstart-button">
+                <span class="button-text" style="color: 989795;">let's connect</span>
+                <span class="button-icon">+</span>
+            </button>
+        </div>
+        <div class="image">
+            <img src="assets/images/Mask group (3).svg">
+        </div>
+    </div>
+</div>

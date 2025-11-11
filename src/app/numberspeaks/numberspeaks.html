@@ -1,0 +1,33 @@
+<section class="achievements-container">
+    <div class="title">
+        <h1><span style="color:#E85102; font-weight: 600;">number</span> that speak</h1>
+    </div>
+
+    <div class="achievements-content">
+        @for (item of achievemenstList; track $index;let isLast = $last;let isFirst=$first) {
+             @if(isFirst){
+                <div>
+                    <img src="assets/images/Mask group (4).svg">
+                </div>
+            }
+        <div class="achievment-card">
+            <div class="content-title">
+                <h2>{{item.count}}</h2>
+                <p>{{item.title}}</p>
+            </div>
+            <div class="content-description">
+                <p>{{item.description}}</p>
+            </div>
+          
+        </div>
+          @if (isLast) {
+            <div><img src="assets/images/Mask group (3).svg"></div>
+        }
+        @if (!isLast) {
+        <div class="divider"></div>
+        }
+        
+        }
+    </div>
+
+</section>

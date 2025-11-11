@@ -1,0 +1,43 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 321px;
+    height: 450px;
+    background-color: #FFFFFF1A;
+}
+
+.card-title {
+    margin: 5px;
+    padding: 10px;
+}
+
+.card-desciption {
+    text-align: left;
+    padding: 10px;
+    opacity: 0;
+}
+
+.card-container {
+    &:hover {
+        background-color: white;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+
+        .card-icons {
+            display: none;
+        }
+
+        .card-desciption {
+            opacity: 1;
+            color: black;
+        }
+    }
+}
+
+.card-icons {
+    margin: auto;
+}
